@@ -55,7 +55,13 @@ function NavBar() {
 
         <NavLinks className="hidden md:flex" />
 
-        <NavLink to="/shop" className={cn(buttonVariants({ size: "sm" }), "hidden md:inline-flex")}>
+        <NavLink
+          to="/shop"
+          className={cn(
+            buttonVariants({ size: "sm" }),
+            "hidden transition-transform md:inline-flex hover:scale-105",
+          )}
+        >
           Shop Now
         </NavLink>
 
