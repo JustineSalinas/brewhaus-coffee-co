@@ -130,6 +130,15 @@ function ChatWidget() {
                 </p>
               </div>
             ))}
+            {typing && (
+              <div className="flex justify-start">
+                <div className="flex gap-1 rounded-2xl rounded-bl-sm bg-muted px-3 py-2.5">
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-muted-foreground/60 [animation-delay:-0.3s]" />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-muted-foreground/60 [animation-delay:-0.15s]" />
+                  <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-muted-foreground/60" />
+                </div>
+              </div>
+            )}
           </div>
 
           {messages.length <= 1 && (
