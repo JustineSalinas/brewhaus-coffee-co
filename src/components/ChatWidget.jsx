@@ -110,7 +110,10 @@ function ChatWidget() {
             {messages.map((m) => (
               <div
                 key={m.id}
-                className={cn("flex", m.from === "user" ? "justify-end" : "justify-start")}
+                className={cn(
+                  "animate-fade-in-up flex",
+                  m.from === "user" ? "justify-end" : "justify-start",
+                )}
               >
                 <p
                   className={cn(
