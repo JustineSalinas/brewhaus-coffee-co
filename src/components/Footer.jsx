@@ -28,7 +28,7 @@ function Footer() {
     <footer className="relative overflow-hidden border-t border-border/60 bg-card/40">
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -bottom-10 left-1/2 w-full -translate-x-1/2 select-none whitespace-nowrap text-center text-[12rem] font-black leading-none tracking-tighter text-foreground/[0.03] sm:text-[16rem]"
+        className="pointer-events-none absolute -bottom-10 left-1/2 w-full -translate-x-1/2 select-none whitespace-nowrap bg-gradient-to-t from-foreground/[0.05] to-transparent bg-clip-text text-center text-[12rem] font-black leading-none tracking-tighter text-transparent sm:text-[16rem]"
       >
         BREWHAUS
       </span>

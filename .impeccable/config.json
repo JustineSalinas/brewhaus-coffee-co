@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "src/components/Footer.jsx"
+        ],
+        "createdAt": "2026-11-24T04:39:49.535Z",
+        "reason": "aria-hidden decorative background watermark, not meaningful heading/metric text"
+      }
+    ]
+  }
+}
