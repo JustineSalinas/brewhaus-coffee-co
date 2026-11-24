@@ -125,9 +125,10 @@ function Footer() {
           <button
             type="button"
             onClick={scrollToTop}
-            className="flex items-center gap-1.5 rounded-full border border-border/60 px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
+            className="group flex items-center gap-1.5 rounded-full border border-border/60 px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
           >
-            Back to top <ArrowUp className="h-3.5 w-3.5" />
+            Back to top{" "}
+            <ArrowUp className="h-3.5 w-3.5 transition-transform group-hover:-translate-y-0.5" />
           </button>
         </div>
       </div>
