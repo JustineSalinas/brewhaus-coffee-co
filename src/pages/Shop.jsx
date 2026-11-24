@@ -25,7 +25,7 @@ function Shop() {
               <h3 className="font-medium">{p.name}</h3>
               <p className="mt-1 text-sm text-muted-foreground">{p.tagline}</p>
               <div className="mt-auto pt-4 flex items-center justify-between gap-3">
-                <span className="font-semibold">${p.price.toFixed(2)}</span>
+                <span className="font-semibold tabular-nums">${p.price.toFixed(2)}</span>
                 <Link
                   to={`/shop/${p.id}`}
                   className={buttonVariants({ variant: "outline", size: "sm" })}
