@@ -1,7 +1,8 @@
 {
-  "name": "new-folder",
+  "name": "brewhaus-coffee-co",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Online storefront for Brewhaus Coffee Co., built with React, Vite, Tailwind, and shadcn/ui.",
   "type": "module",
   "scripts": {
     "dev": "vite",
