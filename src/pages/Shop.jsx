@@ -3,8 +3,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { buttonVariants } from "@/components/ui/button";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 import products from "@/data/products";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 function Shop() {
+  usePageTitle("Shop");
+
   return (
     <div className="mx-auto max-w-6xl px-6 py-20">
       <div className="mb-12 max-w-xl">
