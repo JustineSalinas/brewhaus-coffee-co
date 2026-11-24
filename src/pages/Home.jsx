@@ -42,7 +42,7 @@ function Home() {
             </div>
           </div>
           <ImagePlaceholder
-            className="mx-auto aspect-square w-full max-w-sm rounded-2xl md:mx-0"
+            className="animate-fade-in-up mx-auto aspect-square w-full max-w-sm rounded-2xl shadow-xl shadow-black/5 md:mx-0"
             iconClassName="h-16 w-16"
           />
         </div>
