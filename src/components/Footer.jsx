@@ -95,7 +95,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-foreground">Stay Caffeinated</h3>
+            <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">Stay Caffeinated</h3>
             <p className="mt-3 text-sm text-muted-foreground">
               One email a month. New roasts, brewing tips, zero spam.
             </p>
