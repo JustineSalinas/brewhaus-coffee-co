@@ -88,8 +88,12 @@ function Home() {
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featured.map((p) => (
-            <Card key={p.id} className="flex h-full flex-col overflow-hidden transition-shadow hover:shadow-lg hover:shadow-black/20">
+          {featured.map((p, i) => (
+            <Card
+              key={p.id}
+              style={{ animationDelay: `${i * 100}ms` }}
+              className="animate-fade-in-up flex h-full flex-col overflow-hidden transition-shadow hover:shadow-lg hover:shadow-black/20"
+            >
               <ImagePlaceholder className="aspect-[4/3] w-full" iconClassName="h-10 w-10" />
               <CardContent className="flex flex-1 flex-col p-5">
                 <h3 className="font-medium">{p.name}</h3>
