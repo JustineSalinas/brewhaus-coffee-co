@@ -141,7 +141,7 @@ function ChatWidget() {
             )}
           </div>
 
-          {messages.length <= 1 && (
+          {messages.length <= 1 && !typing && (
             <div className="flex flex-wrap gap-2 px-4 pb-2">
               {QUICK_REPLIES.map((q) => (
                 <button
