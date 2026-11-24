@@ -17,8 +17,12 @@ function Home() {
 
   return (
     <>
-      <section className="border-b border-border/60">
-        <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center">
+      <section className="relative overflow-hidden border-b border-border/60">
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl"
+        />
+        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center">
           <div className="animate-fade-in-up">
             <span className="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium tracking-wide text-primary">
               SMALL-BATCH · ETHICALLY SOURCED
