@@ -122,6 +122,9 @@
   * {
     @apply border-border outline-ring/50;
     }
+  h1, h2, h3 {
+    text-wrap: balance;
+    }
   body {
     @apply bg-background text-foreground leading-relaxed;
     }
