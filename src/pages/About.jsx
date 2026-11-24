@@ -6,12 +6,12 @@ const team = [
   {
     name: "Adrian Salinas",
     role: "Co-Founder & Head Roaster",
-    image: "/team/adrian-salinas.jpg",
+    image: "/team/lienrev-visitacion.jpg",
   },
   {
     name: "Lienrev Visitacion",
     role: "Co-Founder & Operations Lead",
-    image: "/team/lienrev-visitacion.jpg",
+    image: "/team/adrian-salinas.jpg",
   },
 ];
 
@@ -61,8 +61,8 @@ function About() {
             <ImagePlaceholder
               src={member.image}
               label={member.name}
-              className="aspect-[4/3] w-full"
-              imgClassName="object-top"
+              className="aspect-[4/5] w-full bg-muted"
+              imgClassName="object-contain"
               iconClassName="h-10 w-10"
             />
             <CardContent className="p-5 text-center">
