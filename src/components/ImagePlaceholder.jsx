@@ -5,11 +5,17 @@ function ImagePlaceholder({ className, iconClassName }) {
   return (
     <div
       className={cn(
-        "flex items-center justify-center bg-secondary/60 border border-border",
+        "group flex items-center justify-center overflow-hidden bg-secondary/60 border border-border",
         className,
       )}
     >
-      <Coffee className={cn("text-muted-foreground/40", iconClassName)} strokeWidth={1.25} />
+      <Coffee
+        className={cn(
+          "text-muted-foreground/40 transition-transform duration-300 group-hover:scale-110",
+          iconClassName,
+        )}
+        strokeWidth={1.25}
+      />
     </div>
   );
 }
