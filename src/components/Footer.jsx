@@ -36,8 +36,11 @@ function Footer() {
       <div className="relative mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr_1fr_1.2fr]">
           <div>
-            <div className="flex items-center gap-2 font-semibold tracking-tight">
-              <Coffee className="h-5 w-5 text-primary" strokeWidth={1.75} />
+            <div className="group flex items-center gap-2 font-semibold tracking-tight">
+              <Coffee
+                className="h-5 w-5 text-primary transition-transform duration-300 group-hover:rotate-12"
+                strokeWidth={1.75}
+              />
               Brewhaus Coffee Co.
             </div>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
