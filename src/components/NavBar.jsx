@@ -69,7 +69,11 @@ function NavBar() {
               <Coffee className="h-5 w-5 text-primary" strokeWidth={1.75} />
               Brewhaus
             </SheetTitle>
-            <NavLinks onNavigate={() => setOpen(false)} className="mt-6 flex-col items-start px-4" />
+            <NavLinks
+              mobile
+              onNavigate={() => setOpen(false)}
+              className="mt-2 flex-col items-stretch gap-1 px-4"
+            />
           </SheetContent>
         </Sheet>
       </div>
