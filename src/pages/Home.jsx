@@ -96,7 +96,8 @@ function Home() {
               className="animate-fade-in-up flex h-full flex-col overflow-hidden hover:shadow-lg hover:shadow-black/20"
             >
               <ImagePlaceholder
-                label={`Photo of ${p.name}`}
+                src={p.image}
+                label={p.name}
                 className="aspect-[4/3] w-full"
                 iconClassName="h-10 w-10"
               />
