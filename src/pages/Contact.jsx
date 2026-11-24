@@ -38,7 +38,7 @@ function Contact() {
           <Separator className="my-4" />
           <ul className="space-y-4">
             {details.map(({ icon: Icon, lines }, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+              <li key={i} className="flex items-center gap-3 text-sm text-muted-foreground">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10">
                   <Icon className="h-4 w-4 text-primary" strokeWidth={1.75} />
                 </span>
