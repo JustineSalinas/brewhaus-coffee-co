@@ -186,7 +186,12 @@ function ChatWidget() {
               aria-label="Message"
               className="h-9 flex-1 rounded-lg border border-input bg-background px-3 text-sm outline-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
             />
-            <Button type="submit" size="icon" aria-label="Send message">
+            <Button
+              type="submit"
+              size="icon"
+              disabled={!draft.trim()}
+              aria-label="Send message"
+            >
               <Send className="h-4 w-4" />
             </Button>
           </form>
