@@ -39,6 +39,7 @@ function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([INITIAL_MESSAGE]);
   const [draft, setDraft] = useState("");
+  const [typing, setTyping] = useState(false);
   const scrollRef = useRef(null);
   const inputRef = useRef(null);
 
