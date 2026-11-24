@@ -1,0 +1,107 @@
+- generic [ref=f5e3]:
+  - banner [ref=f5e4]:
+    - generic [ref=f5e5]:
+      - link "Brewhaus Coffee Co." [ref=f5e6] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f5e10]:
+        - link "Home" [ref=f5e11] [cursor=pointer]:
+          - /url: /
+        - link "Shop" [ref=f5e12] [cursor=pointer]:
+          - /url: /shop
+        - link "About" [ref=f5e13] [cursor=pointer]:
+          - /url: /about
+        - link "Contact Us" [ref=f5e14] [cursor=pointer]:
+          - /url: /contact
+      - link "Shop Now" [ref=f5e15] [cursor=pointer]:
+        - /url: /shop
+  - main [ref=f5e16]:
+    - generic [ref=f5e19]:
+      - generic [ref=f5e20]: SMALL-BATCH · ETHICALLY SOURCED
+      - heading "Coffee worth waking up for." [level=1] [ref=f5e21]
+      - paragraph [ref=f5e22]: Hand-roasted in micro-batches and shipped within 48 hours of roasting. Discover beans that taste like where they came from.
+      - generic [ref=f5e23]:
+        - link "Shop Our Coffee" [ref=f5e24] [cursor=pointer]:
+          - /url: /shop
+        - link "Our Story" [ref=f5e25] [cursor=pointer]:
+          - /url: /about
+    - generic [ref=f5e30]:
+      - generic [ref=f5e31]: Ethically sourced, direct-trade farms
+      - generic [ref=f5e37]: Roasted and shipped within 48 hours
+      - generic [ref=f5e45]: Award-winning small-batch roasts
+    - generic [ref=f5e51]:
+      - generic [ref=f5e52]:
+        - generic [ref=f5e53]:
+          - heading "Featured Roasts" [level=2] [ref=f5e54]
+          - paragraph [ref=f5e55]: The three bags our customers reorder the most.
+        - link "View all" [ref=f5e56] [cursor=pointer]:
+          - /url: /shop
+      - generic [ref=f5e57]:
+        - generic [ref=f5e62]:
+          - heading "Sunrise Ethiopian Light Roast" [level=3] [ref=f5e63]
+          - paragraph [ref=f5e64]: Bright, floral, citrus notes
+          - generic [ref=f5e65]:
+            - generic [ref=f5e66]: $16.99
+            - link "View" [ref=f5e67] [cursor=pointer]:
+              - /url: /shop/1
+        - generic [ref=f5e72]:
+          - heading "Midnight Sumatra Dark Roast" [level=3] [ref=f5e73]
+          - paragraph [ref=f5e74]: Bold, earthy, full-bodied
+          - generic [ref=f5e75]:
+            - generic [ref=f5e76]: $15.49
+            - link "View" [ref=f5e77] [cursor=pointer]:
+              - /url: /shop/2
+        - generic [ref=f5e82]:
+          - heading "Honduran Honey Medium Roast" [level=3] [ref=f5e83]
+          - paragraph [ref=f5e84]: Caramel sweetness, balanced body
+          - generic [ref=f5e85]:
+            - generic [ref=f5e86]: $14.99
+            - link "View" [ref=f5e87] [cursor=pointer]:
+              - /url: /shop/3
+  - contentinfo [ref=f5e88]:
+    - generic [aria-hidden]: BREWHAUS
+    - generic [ref=f5e89]:
+      - generic [ref=f5e90]:
+        - generic [ref=f5e91]:
+          - generic [ref=f5e92]: Brewhaus Coffee Co.
+          - paragraph [ref=f5e95]: Small-batch roasted, ethically sourced coffee delivered to your door.
+          - generic [ref=f5e96]:
+            - link "Instagram" [ref=f5e97] [cursor=pointer]:
+              - /url: "#"
+            - link "X (Twitter)" [ref=f5e102] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=f5e106] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f5e109]:
+          - heading "Quick Links" [level=3] [ref=f5e110]
+          - list [ref=f5e111]:
+            - listitem [ref=f5e112]:
+              - link "Home" [ref=f5e113] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f5e114]:
+              - link "Shop" [ref=f5e115] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=f5e116]:
+              - link "About" [ref=f5e117] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f5e118]:
+              - link "Contact Us" [ref=f5e119] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f5e120]:
+          - heading "Visit Us" [level=3] [ref=f5e121]
+          - list [ref=f5e122]:
+            - listitem [ref=f5e123]: 123 Roastery Lane, Portland, OR 97201
+            - listitem [ref=f5e127]: (503) 555-0192
+            - listitem [ref=f5e130]: hello@brewhauscoffee.example
+        - generic [ref=f5e134]:
+          - heading "Stay Caffeinated" [level=3] [ref=f5e135]
+          - paragraph [ref=f5e136]: One email a month. New roasts, brewing tips, zero spam.
+          - generic [ref=f5e137]:
+            - textbox "Email for newsletter" [ref=f5e138]:
+              - /placeholder: you@example.com
+            - button "Subscribe" [ref=f5e139]
+      - separator [ref=f5e140]
+      - generic [ref=f5e141]:
+        - paragraph [ref=f5e142]: © 2026 Brewhaus Coffee Co. All rights reserved.
+        - paragraph [ref=f5e143]: Brewed with ♥ in Portland, OR
+        - button "Back to top" [ref=f5e144]
+  - button "Open chat" [ref=f5e148]

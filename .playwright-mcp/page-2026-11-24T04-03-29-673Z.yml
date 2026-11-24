@@ -1,0 +1,49 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e5]:
+      - link "Brewhaus Coffee Co." [ref=f4e6] [cursor=pointer]:
+        - /url: /
+      - button "Open menu" [ref=f4e10]
+  - main [ref=f4e12]:
+    - generic [ref=f4e13]:
+      - generic [ref=f4e14]:
+        - heading "Our Story" [level=1] [ref=f4e15]
+        - paragraph [ref=f4e16]: The people and the passion behind every bag.
+      - paragraph [ref=f4e18]: "Brewhaus Coffee Co. started as a weekend hobby in a cramped apartment kitchen, where a secondhand roaster and a shared obsession with chasing the perfect cup turned into something bigger. After years of bringing home-roasted bags to friends and family — and running out faster than we could roast — we realized people weren't just being polite. They genuinely craved coffee that tasted alive: traceable to a farm, roasted in small batches, and never left to go stale on a shelf. That idea became our mission. We founded Brewhaus to close the gap between farmer and cup, working directly with growers we trust, roasting in batches small enough to taste the difference, and shipping every order within 48 hours of roasting so you get coffee at its peak, not its memory."
+      - heading "Meet the Team" [level=2] [ref=f4e19]
+      - generic [ref=f4e20]:
+        - generic [ref=f4e25]:
+          - heading "Adrian Salinas" [level=3] [ref=f4e26]
+          - paragraph [ref=f4e27]: Co-Founder & Head Roaster
+        - generic [ref=f4e32]:
+          - heading "Lienrev Visitacion" [level=3] [ref=f4e33]
+          - paragraph [ref=f4e34]: Co-Founder & Operations Lead
+  - contentinfo [ref=f4e35]:
+    - generic [ref=f4e36]:
+      - generic [ref=f4e37]:
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]: Brewhaus Coffee Co.
+          - paragraph [ref=f4e42]: Small-batch roasted, ethically sourced coffee delivered to your door.
+        - generic [ref=f4e43]:
+          - heading "Quick Links" [level=3] [ref=f4e44]
+          - list [ref=f4e45]:
+            - listitem [ref=f4e46]:
+              - link "Home" [ref=f4e47] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f4e48]:
+              - link "Shop" [ref=f4e49] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=f4e50]:
+              - link "About" [ref=f4e51] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f4e52]:
+              - link "Contact Us" [ref=f4e53] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f4e54]:
+          - heading "Visit Us" [level=3] [ref=f4e55]
+          - list [ref=f4e56]:
+            - listitem [ref=f4e57]: 123 Roastery Lane, Portland, OR 97201
+            - listitem [ref=f4e61]: (503) 555-0192
+            - listitem [ref=f4e64]: hello@brewhauscoffee.example
+      - separator [ref=f4e68]
+      - paragraph [ref=f4e69]: © 2026 Brewhaus Coffee Co. All rights reserved.

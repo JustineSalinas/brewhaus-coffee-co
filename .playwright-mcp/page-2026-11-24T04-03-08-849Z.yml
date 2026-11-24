@@ -1,0 +1,83 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "Brewhaus Coffee Co." [ref=f2e161] [cursor=pointer]:
+        - /url: /
+      - button "Open menu" [active] [ref=f2e162]
+  - main [ref=f2e16]:
+    - generic [ref=f2e163]:
+      - generic [ref=f2e164]:
+        - heading "Shop All Coffee" [level=1] [ref=f2e165]
+        - paragraph [ref=f2e166]: Every bag roasted to order, shipped fresh within 48 hours of roasting.
+      - generic [ref=f2e167]:
+        - generic [ref=f2e172]:
+          - heading "Sunrise Ethiopian Light Roast" [level=3] [ref=f2e173]
+          - paragraph [ref=f2e174]: Bright, floral, citrus notes
+          - generic [ref=f2e175]:
+            - generic [ref=f2e176]: $16.99
+            - link "View Product" [ref=f2e177] [cursor=pointer]:
+              - /url: /shop/1
+        - generic [ref=f2e182]:
+          - heading "Midnight Sumatra Dark Roast" [level=3] [ref=f2e183]
+          - paragraph [ref=f2e184]: Bold, earthy, full-bodied
+          - generic [ref=f2e185]:
+            - generic [ref=f2e186]: $15.49
+            - link "View Product" [ref=f2e187] [cursor=pointer]:
+              - /url: /shop/2
+        - generic [ref=f2e192]:
+          - heading "Honduran Honey Medium Roast" [level=3] [ref=f2e193]
+          - paragraph [ref=f2e194]: Caramel sweetness, balanced body
+          - generic [ref=f2e195]:
+            - generic [ref=f2e196]: $14.99
+            - link "View Product" [ref=f2e197] [cursor=pointer]:
+              - /url: /shop/3
+        - generic [ref=f2e202]:
+          - heading "Velvet Cold Brew Blend" [level=3] [ref=f2e203]
+          - paragraph [ref=f2e204]: Smooth, chocolatey, low acid
+          - generic [ref=f2e205]:
+            - generic [ref=f2e206]: $17.99
+            - link "View Product" [ref=f2e207] [cursor=pointer]:
+              - /url: /shop/4
+        - generic [ref=f2e212]:
+          - heading "Guatemalan Antigua Reserve" [level=3] [ref=f2e213]
+          - paragraph [ref=f2e214]: Spicy, smoky, complex
+          - generic [ref=f2e215]:
+            - generic [ref=f2e216]: $18.49
+            - link "View Product" [ref=f2e217] [cursor=pointer]:
+              - /url: /shop/5
+        - generic [ref=f2e222]:
+          - heading "Decaf Costa Rican Tarrazú" [level=3] [ref=f2e223]
+          - paragraph [ref=f2e224]: Clean, nutty, naturally decaffeinated
+          - generic [ref=f2e225]:
+            - generic [ref=f2e226]: $15.99
+            - link "View Product" [ref=f2e227] [cursor=pointer]:
+              - /url: /shop/6
+  - contentinfo [ref=f2e88]:
+    - generic [ref=f2e89]:
+      - generic [ref=f2e90]:
+        - generic [ref=f2e91]:
+          - generic [ref=f2e92]: Brewhaus Coffee Co.
+          - paragraph [ref=f2e95]: Small-batch roasted, ethically sourced coffee delivered to your door.
+        - generic [ref=f2e96]:
+          - heading "Quick Links" [level=3] [ref=f2e228]
+          - list [ref=f2e98]:
+            - listitem [ref=f2e99]:
+              - link "Home" [ref=f2e229] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f2e101]:
+              - link "Shop" [ref=f2e230] [cursor=pointer]:
+                - /url: /shop
+            - listitem [ref=f2e103]:
+              - link "About" [ref=f2e231] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f2e105]:
+              - link "Contact Us" [ref=f2e232] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f2e107]:
+          - heading "Visit Us" [level=3] [ref=f2e233]
+          - list [ref=f2e109]:
+            - listitem [ref=f2e110]: 123 Roastery Lane, Portland, OR 97201
+            - listitem [ref=f2e114]: (503) 555-0192
+            - listitem [ref=f2e117]: hello@brewhauscoffee.example
+      - separator [ref=f2e121]
+      - paragraph [ref=f2e122]: © 2026 Brewhaus Coffee Co. All rights reserved.
