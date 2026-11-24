@@ -24,7 +24,8 @@ function Shop() {
         {products.map((p) => (
           <Card key={p.id} className="flex h-full flex-col overflow-hidden hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20">
             <ImagePlaceholder
-              label={`Photo of ${p.name}`}
+              src={p.image}
+              label={p.name}
               className="aspect-[4/3] w-full"
               iconClassName="h-10 w-10"
             />
