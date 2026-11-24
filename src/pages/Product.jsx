@@ -35,6 +35,7 @@ function Product() {
 
       <div className="grid gap-12 md:grid-cols-2 md:items-start">
         <ImagePlaceholder
+          label={`Photo of ${product.name}`}
           className="aspect-square w-full rounded-2xl shadow-xl shadow-black/5"
           iconClassName="h-16 w-16"
         />
