@@ -12,7 +12,7 @@ const links = [
   { to: "/contact", label: "Contact Us" },
 ];
 
-function NavLinks({ onNavigate, className }) {
+function NavLinks({ onNavigate, className, mobile = false }) {
   return (
     <nav className={cn("flex items-center gap-1", className)}>
       {links.map((link) => (
@@ -23,9 +23,14 @@ function NavLinks({ onNavigate, className }) {
           onClick={onNavigate}
           className={({ isActive }) =>
             cn(
-              "relative px-3 py-2 text-sm font-medium transition-colors after:absolute after:inset-x-3 after:-bottom-px after:h-0.5 after:origin-left after:scale-x-0 after:bg-primary after:transition-transform after:duration-200 hover:after:scale-x-100",
+              "relative px-3 py-2 text-sm font-medium transition-colors",
+              mobile
+                ? "w-full rounded-lg hover:bg-muted"
+                : "after:absolute after:inset-x-3 after:-bottom-px after:h-0.5 after:origin-left after:scale-x-0 after:bg-primary after:transition-transform after:duration-200 hover:after:scale-x-100",
               isActive
-                ? "text-primary after:scale-x-100"
+                ? mobile
+                  ? "bg-primary/10 text-primary"
+                  : "text-primary after:scale-x-100"
                 : "text-muted-foreground hover:text-foreground",
             )
           }
