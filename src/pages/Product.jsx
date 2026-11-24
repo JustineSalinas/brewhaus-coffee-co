@@ -5,10 +5,12 @@ import { Separator } from "@/components/ui/separator";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
 import products from "@/data/products";
 import { cn } from "@/lib/utils";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 function Product() {
   const { id } = useParams();
   const product = products.find((p) => p.id === Number(id));
+  usePageTitle(product ? product.name : "Product not found");
 
   if (!product) {
     return (
