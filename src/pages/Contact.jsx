@@ -54,7 +54,7 @@ function Contact() {
 
         <div className="md:col-span-3">
           {submitted ? (
-            <div className="flex items-start gap-3 rounded-lg border border-primary/30 bg-primary/10 p-4 text-sm">
+            <div className="animate-fade-in-up flex items-start gap-3 rounded-lg border border-primary/30 bg-primary/10 p-4 text-sm">
               <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-primary" strokeWidth={1.75} />
               <p>Thanks for reaching out! We'll get back to you soon.</p>
             </div>
