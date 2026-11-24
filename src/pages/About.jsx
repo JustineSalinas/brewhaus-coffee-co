@@ -40,7 +40,7 @@ function About() {
       </h2>
       <div className="mt-8 grid gap-6 sm:grid-cols-2 sm:justify-center">
         {team.map((member) => (
-          <Card key={member.name} className="overflow-hidden hover:shadow-lg hover:shadow-black/20">
+          <Card key={member.name} className="overflow-hidden hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20">
             <ImagePlaceholder className="aspect-[4/3] w-full" iconClassName="h-10 w-10" />
             <CardContent className="p-5 text-center">
               <h3 className="font-medium">{member.name}</h3>
