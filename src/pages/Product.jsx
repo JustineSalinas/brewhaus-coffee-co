@@ -49,7 +49,7 @@ function Product() {
             {product.origin}
           </div>
 
-          <p className="mt-6 text-2xl font-semibold">${product.price.toFixed(2)}</p>
+          <p className="mt-6 text-2xl font-semibold tabular-nums">${product.price.toFixed(2)}</p>
 
           <Separator className="my-6" />
 
