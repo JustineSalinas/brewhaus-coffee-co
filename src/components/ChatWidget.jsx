@@ -42,6 +42,7 @@ function ChatWidget() {
   const [typing, setTyping] = useState(false);
   const scrollRef = useRef(null);
   const inputRef = useRef(null);
+  const panelRef = useRef(null);
 
   useEffect(() => {
     if (scrollRef.current) {
