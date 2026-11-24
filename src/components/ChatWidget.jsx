@@ -47,7 +47,7 @@ function ChatWidget() {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
-  }, [messages, open]);
+  }, [messages, open, typing]);
 
   useEffect(() => {
     if (open) inputRef.current?.focus();
