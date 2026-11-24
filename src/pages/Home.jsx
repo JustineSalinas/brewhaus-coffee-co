@@ -36,9 +36,9 @@ function Home() {
               roasting. Discover beans that taste like where they came from.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/shop" className={cn(buttonVariants({ size: "lg" }), "gap-1.5")}>
+              <Link to="/shop" className={cn(buttonVariants({ size: "lg" }), "group gap-1.5")}>
                 Shop Our Coffee
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </Link>
               <Link to="/about" className={buttonVariants({ size: "lg", variant: "outline" })}>
                 Our Story
