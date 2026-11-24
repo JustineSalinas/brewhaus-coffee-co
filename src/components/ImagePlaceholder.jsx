@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Coffee } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-function ImagePlaceholder({ className, iconClassName, label, src }) {
+function ImagePlaceholder({ className, iconClassName, imgClassName, label, src }) {
   const [failed, setFailed] = useState(false);
 
   if (src && !failed) {
@@ -13,7 +13,10 @@ function ImagePlaceholder({ className, iconClassName, label, src }) {
           alt={label || ""}
           loading="lazy"
           onError={() => setFailed(true)}
-          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className={cn(
+            "h-full w-full object-cover transition-transform duration-500 group-hover:scale-105",
+            imgClassName,
+          )}
         />
       </div>
     );

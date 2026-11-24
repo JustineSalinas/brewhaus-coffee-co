@@ -3,8 +3,16 @@ import ImagePlaceholder from "@/components/ImagePlaceholder";
 import { usePageTitle } from "@/hooks/usePageTitle";
 
 const team = [
-  { name: "Adrian Salinas", role: "Co-Founder & Head Roaster" },
-  { name: "Lienrev Visitacion", role: "Co-Founder & Operations Lead" },
+  {
+    name: "Adrian Salinas",
+    role: "Co-Founder & Head Roaster",
+    image: "/team/adrian-salinas.jpg",
+  },
+  {
+    name: "Lienrev Visitacion",
+    role: "Co-Founder & Operations Lead",
+    image: "/team/lienrev-visitacion.jpg",
+  },
 ];
 
 function About() {
@@ -51,8 +59,10 @@ function About() {
         {team.map((member) => (
           <Card key={member.name} className="overflow-hidden hover:-translate-y-1 hover:shadow-lg hover:shadow-black/20">
             <ImagePlaceholder
-              label={`Photo of ${member.name}`}
+              src={member.image}
+              label={member.name}
               className="aspect-[4/3] w-full"
+              imgClassName="object-top"
               iconClassName="h-10 w-10"
             />
             <CardContent className="p-5 text-center">
