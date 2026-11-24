@@ -77,7 +77,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-foreground">Visit Us</h3>
+            <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">Visit Us</h3>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.75} />
