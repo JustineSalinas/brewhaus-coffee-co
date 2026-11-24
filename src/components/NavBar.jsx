@@ -60,7 +60,7 @@ function NavBar() {
             <span className="sr-only">Open menu</span>
           </SheetTrigger>
           <SheetContent side="right" className="w-64">
-            <SheetTitle className="flex items-center gap-2 px-4 pt-4 text-left">
+            <SheetTitle className="flex items-center gap-2 bg-primary/10 px-4 py-4 text-left">
               <Coffee className="h-5 w-5 text-primary" strokeWidth={1.75} />
               Brewhaus
             </SheetTitle>
