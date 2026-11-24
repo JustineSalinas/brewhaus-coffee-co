@@ -1,7 +1,24 @@
+import { useState } from "react";
 import { Coffee } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-function ImagePlaceholder({ className, iconClassName, label }) {
+function ImagePlaceholder({ className, iconClassName, label, src }) {
+  const [failed, setFailed] = useState(false);
+
+  if (src && !failed) {
+    return (
+      <div className={cn("group overflow-hidden bg-secondary/60", className)}>
+        <img
+          src={src}
+          alt={label || ""}
+          loading="lazy"
+          onError={() => setFailed(true)}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       role={label ? "img" : undefined}
