@@ -55,8 +55,8 @@ function Home() {
       <section className="border-b border-border/60 bg-card/30">
         <div className="mx-auto grid max-w-6xl gap-6 px-6 py-10 sm:grid-cols-3">
           {highlights.map(({ icon: Icon, label }) => (
-            <div key={label} className="flex items-center gap-3">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
+            <div key={label} className="group flex items-center gap-3">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 transition-transform duration-200 group-hover:scale-110">
                 <Icon className="h-5 w-5 text-primary" strokeWidth={1.75} />
               </div>
               <span className="text-sm text-muted-foreground">{label}</span>
