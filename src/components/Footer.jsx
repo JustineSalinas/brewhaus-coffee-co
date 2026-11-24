@@ -67,7 +67,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-foreground">Quick Links</h3>
+            <h3 className="text-sm font-semibold tracking-wide text-foreground uppercase">Quick Links</h3>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li><Link to="/" className="transition-colors hover:text-primary">Home</Link></li>
               <li><Link to="/shop" className="transition-colors hover:text-primary">Shop</Link></li>
