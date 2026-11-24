@@ -76,7 +76,7 @@ function ChatWidget() {
 
   function sendMessage(text) {
     const trimmed = text.trim();
-    if (!trimmed) return;
+    if (!trimmed || typing) return;
 
     const userMessage = { id: crypto.randomUUID(), from: "user", text: trimmed };
     setMessages((prev) => [...prev, userMessage]);
