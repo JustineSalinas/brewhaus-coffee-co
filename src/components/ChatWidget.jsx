@@ -161,7 +161,7 @@ function ChatWidget() {
         size="icon-lg"
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open chat"}
-        className="h-14 w-14 rounded-full shadow-xl shadow-black/40"
+        className="h-14 w-14 rounded-full shadow-xl shadow-black/40 transition-transform hover:scale-105"
       >
         {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
       </Button>
