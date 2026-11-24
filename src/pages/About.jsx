@@ -33,7 +33,7 @@ function About() {
           apartment kitchen, where a secondhand roaster and a shared
           obsession with chasing the perfect cup turned into something
           bigger. After years of bringing home-roasted bags to friends and
-          family — and running out faster than we could roast — we realized
+          family, and running out faster than we could roast, we realized
           people weren't just being polite. They genuinely craved coffee that
           tasted alive: traceable to a farm, roasted in small batches, and
           never left to go stale on a shelf. That idea became our mission. We
