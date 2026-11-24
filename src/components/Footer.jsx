@@ -26,6 +26,10 @@ function Footer() {
 
   return (
     <footer className="relative overflow-hidden border-t border-border/60 bg-card/40">
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent"
+      />
       <span
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-10 left-1/2 w-full -translate-x-1/2 select-none whitespace-nowrap bg-gradient-to-t from-foreground/[0.05] to-transparent bg-clip-text text-center text-[12rem] font-black leading-none tracking-tighter text-transparent sm:text-[16rem]"
