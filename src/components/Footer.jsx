@@ -51,7 +51,7 @@ function Footer() {
               Small-batch roasted, ethically sourced coffee delivered to your
               door.
             </p>
-            <div className="mt-5 flex gap-2">
+            <div aria-label="Social media links" className="mt-5 flex gap-2">
               {socials.map(({ icon: Icon, label }) => (
                 <a
                   key={label}
