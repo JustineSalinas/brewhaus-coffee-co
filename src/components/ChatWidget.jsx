@@ -60,13 +60,15 @@ function ChatWidget() {
     const userMessage = { id: crypto.randomUUID(), from: "user", text: trimmed };
     setMessages((prev) => [...prev, userMessage]);
     setDraft("");
+    setTyping(true);
 
     setTimeout(() => {
+      setTyping(false);
       setMessages((prev) => [
         ...prev,
         { id: crypto.randomUUID(), from: "bot", text: getBotReply(trimmed) },
       ]);
-    }, 500);
+    }, 700);
   }
 
   function handleSubmit(e) {
