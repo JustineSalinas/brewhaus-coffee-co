@@ -14,7 +14,7 @@ const links = [
 
 function NavLinks({ onNavigate, className, mobile = false }) {
   return (
-    <nav className={cn("flex items-center gap-1", className)}>
+    <nav aria-label="Primary" className={cn("flex items-center gap-1", className)}>
       {links.map((link) => (
         <NavLink
           key={link.to}
