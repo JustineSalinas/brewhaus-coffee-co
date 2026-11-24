@@ -17,21 +17,33 @@ function Home() {
 
   return (
     <>
-      <section className="relative overflow-hidden border-b border-border/60">
+      <section className="relative isolate overflow-hidden border-b border-border/60">
+        <img
+          src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80&fit=crop"
+          alt=""
+          aria-hidden="true"
+          loading="eager"
+          className="absolute inset-0 -z-10 h-full w-full object-cover"
+        />
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-primary/10 blur-3xl"
+          className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/20"
         />
-        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center">
-          <div className="animate-fade-in-up">
-            <span className="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium tracking-wide text-primary shadow-sm shadow-primary/10">
+        <div
+          aria-hidden="true"
+          className="absolute inset-0 -z-10 bg-gradient-to-t from-black/40 via-transparent to-transparent"
+        />
+
+        <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32 md:py-40">
+          <div className="animate-fade-in-up max-w-xl">
+            <span className="inline-flex items-center rounded-full border border-white/25 bg-white/10 px-3 py-1 text-xs font-medium tracking-wide text-amber-100 backdrop-blur-md">
               SMALL-BATCH · ETHICALLY SOURCED
             </span>
-            <h1 className="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl">
+            <h1 className="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight text-white sm:text-5xl">
               Coffee worth <br className="hidden sm:block" />
               waking up for.
             </h1>
-            <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground">
+            <p className="mt-5 max-w-md text-base leading-relaxed text-white/80">
               Hand-roasted in micro-batches and shipped within 48 hours of
               roasting. Discover beans that taste like where they came from.
             </p>
@@ -40,16 +52,14 @@ function Home() {
                 Shop Our Coffee
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </Link>
-              <Link to="/about" className={buttonVariants({ size: "lg", variant: "outline" })}>
+              <Link
+                to="/about"
+                className="inline-flex h-9 items-center justify-center gap-1.5 rounded-lg border border-white/30 bg-white/5 px-2.5 text-sm font-medium text-white backdrop-blur-md transition-colors hover:bg-white/15"
+              >
                 Our Story
               </Link>
             </div>
           </div>
-          <ImagePlaceholder
-            label="Freshly poured cup of Brewhaus coffee"
-            className="animate-fade-in-up mx-auto aspect-square w-full max-w-sm rounded-2xl shadow-xl shadow-black/5 md:mx-0"
-            iconClassName="h-16 w-16"
-          />
         </div>
       </section>
 

@@ -101,7 +101,7 @@ function Footer() {
             </p>
             {subscribed ? (
               <p className="mt-4 rounded-lg border border-primary/30 bg-primary/10 px-3 py-2 text-sm text-primary">
-                You're on the list — welcome aboard!
+                You're on the list, welcome aboard!
               </p>
             ) : (
               <form onSubmit={handleSubscribe} className="mt-4 flex gap-2">

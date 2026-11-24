@@ -5,7 +5,7 @@ const products = [
     price: 16.99,
     origin: "Yirgacheffe, Ethiopia",
     tagline: "Bright, floral, citrus notes",
-    image: "https://images.unsplash.com/photo-1587734195503-904fca47e0d9?w=800&q=80&fit=crop",
+    image: "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=800&q=80&fit=crop",
     description:
       "Grown in the highlands of Yirgacheffe, this light roast bursts with bergamot, lemon zest, and a delicate jasmine aroma. Perfect for pour-over brewing and slow mornings.",
   },
@@ -15,7 +15,7 @@ const products = [
     price: 15.49,
     origin: "Sumatra, Indonesia",
     tagline: "Bold, earthy, full-bodied",
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80&fit=crop",
+    image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80&fit=crop",
     description:
       "A deep, smoky dark roast with notes of cedar, dark chocolate, and a syrupy body. Sourced from small farms on the island of Sumatra for a rich, low-acid cup.",
   },
@@ -45,7 +45,7 @@ const products = [
     price: 18.49,
     origin: "Antigua, Guatemala",
     tagline: "Spicy, smoky, complex",
-    image: "https://images.unsplash.com/photo-1587080266227-677cc2a4e76e?w=800&q=80&fit=crop",
+    image: "https://images.unsplash.com/photo-1497636577773-f1231844b336?w=800&q=80&fit=crop",
     description:
       "Volcanic soil gives this Antigua reserve its signature spice and smoky depth, balanced with notes of cocoa and a crisp cinnamon finish. A connoisseur favorite.",
   },

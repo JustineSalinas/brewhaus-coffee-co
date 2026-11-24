@@ -15,10 +15,10 @@ function getBotReply(input) {
   const text = input.toLowerCase();
 
   if (text.includes("ship")) {
-    return "We roast to order and ship within 48 hours — most orders arrive in 3-5 business days.";
+    return "We roast to order and ship within 48 hours. Most orders arrive in 3-5 business days.";
   }
   if (text.includes("decaf")) {
-    return "Yep! Our Costa Rican Tarrazú is Swiss Water Process decaf — full flavor, no caffeine.";
+    return "Yep! Our Costa Rican Tarrazú is Swiss Water Process decaf, full flavor, no caffeine.";
   }
   if (text.includes("hour") || text.includes("open")) {
     return "Our roastery is open Mon–Sat, 8am–6pm at 123 Roastery Lane, Portland.";
@@ -27,12 +27,12 @@ function getBotReply(input) {
     return "You can reach us at hello@brewhauscoffee.example or (503) 555-0192.";
   }
   if (text.includes("price") || text.includes("cost")) {
-    return "Our bags range from $14.99 to $18.49 — check out the Shop page for the full lineup.";
+    return "Our bags range from $14.99 to $18.49. Check out the Shop page for the full lineup.";
   }
   if (text.includes("thank")) {
     return "Anytime! Enjoy your coffee.";
   }
-  return "Good question! For anything specific, our team would love to help — reach out via the Contact page.";
+  return "Good question! For anything specific, our team would love to help, so reach out via the Contact page.";
 }
 
 function ChatWidget() {
