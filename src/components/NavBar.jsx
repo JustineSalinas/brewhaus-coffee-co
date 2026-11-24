@@ -46,7 +46,7 @@ function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 shadow-sm backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <NavLink to="/" className="flex items-center gap-2 font-semibold tracking-tight transition-transform hover:scale-[1.02]">
           <Coffee className="h-5 w-5 text-primary" strokeWidth={1.75} />
