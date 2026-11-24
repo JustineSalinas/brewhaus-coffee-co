@@ -92,7 +92,7 @@ function Home() {
             <Card
               key={p.id}
               style={{ animationDelay: `${i * 100}ms` }}
-              className="animate-fade-in-up flex h-full flex-col overflow-hidden transition-shadow hover:shadow-lg hover:shadow-black/20"
+              className="animate-fade-in-up flex h-full flex-col overflow-hidden hover:shadow-lg hover:shadow-black/20"
             >
               <ImagePlaceholder className="aspect-[4/3] w-full" iconClassName="h-10 w-10" />
               <CardContent className="flex flex-1 flex-col p-5">
