@@ -22,3 +22,10 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Features
+
+- Home, Shop, Product, About, and Contact pages
+- Mobile-first responsive layout
+- "Brewbot" chat widget with canned FAQ responses
+- Accessible image placeholders, skip-to-content link, and keyboard-friendly nav
