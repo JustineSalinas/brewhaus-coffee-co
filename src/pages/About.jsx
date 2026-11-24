@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import ImagePlaceholder from "@/components/ImagePlaceholder";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const team = [
   { name: "Adrian Salinas", role: "Co-Founder & Head Roaster" },
@@ -7,6 +8,8 @@ const team = [
 ];
 
 function About() {
+  usePageTitle("About");
+
   return (
     <div className="mx-auto max-w-5xl px-6 py-20">
       <div className="mx-auto max-w-xl text-center">
