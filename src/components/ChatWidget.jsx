@@ -79,7 +79,7 @@ function ChatWidget() {
         <div
           role="dialog"
           aria-label="Brewbot chat"
-          className="flex h-96 w-80 flex-col overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-black/40"
+          className="animate-fade-in-up flex h-96 w-80 flex-col overflow-hidden rounded-2xl border border-border/60 bg-card shadow-2xl shadow-black/40"
         >
           <div className="flex items-center justify-between gap-2 border-b border-border/60 bg-primary/10 px-4 py-3">
             <div className="flex items-center gap-2">
