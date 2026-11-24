@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 const details = [
   { icon: MapPin, lines: ["123 Roastery Lane", "Portland, OR 97201"] },
@@ -14,6 +15,7 @@ const details = [
 ];
 
 function Contact() {
+  usePageTitle("Contact Us");
   const [submitted, setSubmitted] = useState(false);
 
   function handleSubmit(e) {
