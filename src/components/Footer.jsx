@@ -51,7 +51,7 @@ function Footer() {
                   href="#"
                   aria-label={label}
                   onClick={(e) => e.preventDefault()}
-                  className="flex h-9 w-9 items-center justify-center rounded-full border border-border/60 text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-border/60 text-muted-foreground transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:text-primary hover:shadow-md hover:shadow-primary/10"
                 >
                   <Icon className="h-4 w-4" strokeWidth={1.75} />
                 </a>
