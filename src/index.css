@@ -125,6 +125,9 @@
   h1, h2, h3 {
     text-wrap: balance;
     }
+  p {
+    text-wrap: pretty;
+    }
   body {
     @apply bg-background text-foreground leading-relaxed;
     }
