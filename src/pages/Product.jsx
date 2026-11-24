@@ -32,7 +32,10 @@ function Product() {
       </Link>
 
       <div className="grid gap-12 md:grid-cols-2 md:items-start">
-        <ImagePlaceholder className="aspect-square w-full rounded-2xl" iconClassName="h-16 w-16" />
+        <ImagePlaceholder
+          className="aspect-square w-full rounded-2xl shadow-xl shadow-black/5"
+          iconClassName="h-16 w-16"
+        />
 
         <div>
           <span className="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
