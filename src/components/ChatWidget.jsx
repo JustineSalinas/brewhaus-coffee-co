@@ -133,7 +133,7 @@ function ChatWidget() {
                   key={q}
                   type="button"
                   onClick={() => sendMessage(q)}
-                  className="rounded-full border border-border/60 px-3 py-1 text-xs text-muted-foreground transition-colors hover:border-primary/50 hover:text-primary"
+                  className="rounded-full border border-border/60 px-3 py-1 text-xs text-muted-foreground transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:text-primary"
                 >
                   {q}
                 </button>
