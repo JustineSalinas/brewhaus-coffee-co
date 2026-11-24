@@ -1,15 +1,18 @@
 import { Coffee } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-function ImagePlaceholder({ className, iconClassName }) {
+function ImagePlaceholder({ className, iconClassName, label }) {
   return (
     <div
+      role={label ? "img" : undefined}
+      aria-label={label}
       className={cn(
         "group flex items-center justify-center overflow-hidden bg-secondary/60 border border-border",
         className,
       )}
     >
       <Coffee
+        aria-hidden="true"
         className={cn(
           "text-muted-foreground/40 transition-transform duration-300 group-hover:scale-110",
           iconClassName,
