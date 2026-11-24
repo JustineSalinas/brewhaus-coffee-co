@@ -18,7 +18,13 @@ function About() {
         </p>
       </div>
 
-      <div className="mx-auto mt-10 max-w-2xl">
+      <div className="relative mx-auto mt-10 max-w-2xl">
+        <span
+          aria-hidden="true"
+          className="absolute -top-6 -left-4 text-6xl font-serif text-primary/20 select-none"
+        >
+          "
+        </span>
         <p className="text-sm leading-relaxed text-muted-foreground">
           Brewhaus Coffee Co. started as a weekend hobby in a cramped
           apartment kitchen, where a secondhand roaster and a shared
