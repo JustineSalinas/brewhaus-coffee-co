@@ -77,9 +77,13 @@ function Home() {
           </div>
           <Link
             to="/shop"
-            className={cn(buttonVariants({ variant: "ghost" }), "hidden gap-1.5 sm:inline-flex")}
+            className={cn(
+              buttonVariants({ variant: "ghost" }),
+              "group hidden gap-1.5 sm:inline-flex",
+            )}
           >
-            View all <ArrowRight className="h-4 w-4" />
+            View all{" "}
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
         </div>
 
