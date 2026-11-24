@@ -19,7 +19,7 @@ function Home() {
     <>
       <section className="border-b border-border/60">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 sm:py-24 md:grid-cols-2 md:items-center">
-          <div>
+          <div className="animate-fade-in-up">
             <span className="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium tracking-wide text-primary">
               SMALL-BATCH · ETHICALLY SOURCED
             </span>
