@@ -161,9 +161,15 @@ function ChatWidget() {
         size="icon-lg"
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open chat"}
-        className="h-14 w-14 rounded-full shadow-xl shadow-black/40 transition-transform hover:scale-105"
+        className="relative h-14 w-14 rounded-full shadow-xl shadow-black/40 transition-transform hover:scale-105"
       >
         {open ? <X className="h-6 w-6" /> : <MessageCircle className="h-6 w-6" />}
+        {!open && messages.length <= 1 && (
+          <span className="absolute top-0 right-0 flex h-3 w-3">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-75" />
+            <span className="relative inline-flex h-3 w-3 rounded-full bg-accent" />
+          </span>
+        )}
       </Button>
     </div>
   );
